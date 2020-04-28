@@ -1,0 +1,48 @@
+{
+  "name": "create-react-app-with-typescript",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.9.1",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "contentful": "^7.14.3",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "better-npm-run": "^0.1.1",
+    "contentful-ts-generator": "^0.2.5",
+    "contentful-typescript-codegen": "^3.2.1",
+    "prettier": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "content:types": "better-npm-run content:types",
+    "contentful-typescript-codegen": "better-npm-run contentful-typescript-codegen",
+    "prettier:fix": "prettier --config .prettierrc  --write  \"**/*.*\"",
+    "//prettier:fix": "prettier --config .prettierrc  --write  \"**/*.ts(x)\""
+  },
+  "betterScripts": {
+    "content:types": "contentful-ts-generator --download --out @types/generated/contentful.d.ts",
+    "contentful-typescript-codegen": "contentful-typescript-codegen --output @types/generated/contentful.d.ts"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
