@@ -107,7 +107,7 @@ export default function App2() {
         </div>
         <Divider />
         <List>
-          <ListItemLink to="/" primary="Home" icon={<HomeIcon />} />
+          {/* <ListItemLink to="/" primary="Home" icon={<HomeIcon />} /> */}
           <ListItemLink to="/home" primary="Home" icon={<HomeIcon />} />
           <ListItemLink to="/courses" primary="Courses" icon={<AppsIcon />} />
         </List>

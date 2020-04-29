@@ -55,7 +55,7 @@ class CourseList extends Component<CourseListProps, CourseListState> {
 
   render() {
     return (
-      <div>
+      <>
         {this.state.courses ? (
           <div>
             <TextField
@@ -76,7 +76,7 @@ class CourseList extends Component<CourseListProps, CourseListState> {
         ) : (
           'No courses found'
         )}
-      </div>
+      </>
     );
   }
 }
