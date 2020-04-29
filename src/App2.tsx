@@ -13,11 +13,11 @@ import { useGlobalOpen } from 'hooks/menu';
 import { CustomAppBar } from 'components/custom/AppBar';
 import { ListItemLink } from 'components/ListLink';
 import HomeIcon from '@material-ui/icons/Home';
-import HelpIcon from '@material-ui/icons/Help';
 import InfoIcon from '@material-ui/icons/Info';
 import TodayIcon from '@material-ui/icons/Today';
-import StorageIcon from '@material-ui/icons/Storage';
 import ListIcon from '@material-ui/icons/List';
+// import HelpIcon from '@material-ui/icons/Help';
+// import StorageIcon from '@material-ui/icons/Storage';
 
 const drawerWidth = 240;
 
@@ -109,7 +109,7 @@ export default function App2() {
         <List>
           {/* <ListItemLink to="/" primary="Home" icon={<HomeIcon />} /> */}
           <ListItemLink to="/home" primary="Home" icon={<HomeIcon />} />
-          <ListItemLink to="/courses" primary="Courses" icon={<AppsIcon />} />
+          <ListItemLink to="/courses" primary="React Courses" icon={<AppsIcon />} />
         </List>
         <Divider />
         <List>
