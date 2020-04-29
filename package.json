@@ -1,5 +1,6 @@
 {
   "name": "create-react-app-with-typescript",
+  "homepage": "https://pasechnik.github.io/react-material/",
   "version": "4.0.0",
   "private": true,
   "dependencies": {
@@ -22,6 +23,7 @@
     "better-npm-run": "^0.1.1",
     "contentful-ts-generator": "^0.2.5",
     "contentful-typescript-codegen": "^3.2.1",
+    "gh-pages": "^2.2.0",
     "prettier": "^2.0.4"
   },
   "scripts": {
@@ -30,6 +32,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "content:types": "better-npm-run content:types",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "contentful-typescript-codegen": "better-npm-run contentful-typescript-codegen",
     "prettier:fix": "prettier --config .prettierrc  --write  \"**/*.*\"",
     "//prettier:fix": "prettier --config .prettierrc  --write  \"**/*.ts(x)\""
