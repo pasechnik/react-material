@@ -8,7 +8,7 @@ import IconButton from '@material-ui/core/IconButton';
 import AppsIcon from '@material-ui/icons/Apps';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import { RoutesContainer } from './RoutesContainer';
+import { RoutesContainer } from 'routes/RoutesContainer';
 import { useGlobalOpen } from 'hooks/menu';
 import { CustomAppBar } from 'components/custom/AppBar';
 import { ListItemLink } from 'components/ListLink';
@@ -80,13 +80,13 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function App2() {
+export const App2: React.FunctionComponent<{}> = (): JSX.Element => {
   const theme = useTheme();
   const classes = useStyles();
   const [open, setOpen] = useGlobalOpen();
 
-  // const handleDrawerOpen = () => setOpen(true);
-  const handleDrawerClose = () => setOpen(false);
+  // const handleDrawerOpen = (): void => setOpen(true);
+  const handleDrawerClose = (): void => setOpen(false);
 
   return (
     <div className={classes.root}>
@@ -114,7 +114,7 @@ export default function App2() {
         <Divider />
         <List>
           <ListItemLink to="/about" primary="About" icon={<InfoIcon />} />
-          <ListItemLink to="/about" primary="Calendar" icon={<TodayIcon />} />
+          <ListItemLink to="/calendar" primary="Calendar" icon={<TodayIcon />} />
           <ListItemLink to="/topics" primary="Topics" icon={<ListIcon />} />
         </List>
       </Drawer>
@@ -128,4 +128,6 @@ export default function App2() {
       </main>
     </div>
   );
-}
+};
+
+export default App2;

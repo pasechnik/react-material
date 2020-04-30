@@ -4,6 +4,9 @@
   "version": "4.0.0",
   "private": true,
   "dependencies": {
+    "@devexpress/dx-react-core": "^2.6.2",
+    "@devexpress/dx-react-scheduler": "^2.6.2",
+    "@devexpress/dx-react-scheduler-material-ui": "^2.6.2",
     "@material-ui/core": "latest",
     "@material-ui/icons": "^4.9.1",
     "@types/react": "^16.9.34",
@@ -20,9 +23,13 @@
     "@types/jest": "^25.2.1",
     "@types/node": "^13.13.4",
     "@types/react-router-dom": "^5.1.5",
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
     "better-npm-run": "^0.1.1",
     "contentful-ts-generator": "^0.2.5",
     "contentful-typescript-codegen": "^3.2.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
     "gh-pages": "^2.2.0",
     "prettier": "^2.0.4"
   },

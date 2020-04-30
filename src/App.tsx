@@ -1,25 +1,25 @@
-import React from 'react';
+import * as React from 'react';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Link from '@material-ui/core/Link';
-import PrimarySearchAppBar from './components/PrimarySearchAppBar';
-import { RoutesContainer } from './RoutesContainer';
+import PrimarySearchAppBar from 'components/PrimarySearchAppBar';
+import { RoutesContainer } from 'routes/RoutesContainer';
 
-function Copyright() {
+const Copyright: React.FunctionComponent<{}> = (): JSX.Element => {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+        Pasechnik.io
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
     </Typography>
   );
-}
+};
 
-export default function App() {
+export const App: React.FunctionComponent<{}> = (): JSX.Element => {
   return (
     <>
       <PrimarySearchAppBar />
@@ -31,4 +31,6 @@ export default function App() {
       </Container>
     </>
   );
-}
+};
+
+export default App;
