@@ -9,7 +9,7 @@ import AppsIcon from '@material-ui/icons/Apps';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import { RoutesContainer } from 'routes/RoutesContainer';
-import { useGlobalOpen } from 'hooks/menu';
+import { useGlobalOpen } from 'hooks/useMenu';
 import { CustomAppBar } from 'components/custom/AppBar';
 import { ListItemLink } from 'components/ListLink';
 import HomeIcon from '@material-ui/icons/Home';
