@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-material/static/js/main.83eb148d.chunk.js",
-    "main.js.map": "/react-material/static/js/main.83eb148d.chunk.js.map",
+    "main.js": "/react-material/static/js/main.533769f5.chunk.js",
+    "main.js.map": "/react-material/static/js/main.533769f5.chunk.js.map",
     "runtime-main.js": "/react-material/static/js/runtime-main.e9102543.js",
     "runtime-main.js.map": "/react-material/static/js/runtime-main.e9102543.js.map",
-    "static/js/2.381654a9.chunk.js": "/react-material/static/js/2.381654a9.chunk.js",
-    "static/js/2.381654a9.chunk.js.map": "/react-material/static/js/2.381654a9.chunk.js.map",
+    "static/js/2.96a78bf5.chunk.js": "/react-material/static/js/2.96a78bf5.chunk.js",
+    "static/js/2.96a78bf5.chunk.js.map": "/react-material/static/js/2.96a78bf5.chunk.js.map",
     "index.html": "/react-material/index.html",
-    "precache-manifest.be7ea7a4931e389f5cb70c0cdafbb18d.js": "/react-material/precache-manifest.be7ea7a4931e389f5cb70c0cdafbb18d.js",
+    "precache-manifest.a47383f3bfa230b104061a7543ab195e.js": "/react-material/precache-manifest.a47383f3bfa230b104061a7543ab195e.js",
     "service-worker.js": "/react-material/service-worker.js",
-    "static/js/2.381654a9.chunk.js.LICENSE.txt": "/react-material/static/js/2.381654a9.chunk.js.LICENSE.txt"
+    "static/js/2.96a78bf5.chunk.js.LICENSE.txt": "/react-material/static/js/2.96a78bf5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e9102543.js",
-    "static/js/2.381654a9.chunk.js",
-    "static/js/main.83eb148d.chunk.js"
+    "static/js/2.96a78bf5.chunk.js",
+    "static/js/main.533769f5.chunk.js"
   ]
 }
