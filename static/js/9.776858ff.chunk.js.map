@@ -1,0 +1,1 @@
+{"version":3,"sources":["node_modules/routes/Home.tsx"],"names":["Home"],"mappings":"4JAAA,uDAEO,SAASA,IACd,OAAO,mCAGMA","file":"static/js/9.776858ff.chunk.js","sourcesContent":["import * as React from 'react';\n\nexport function Home(): JSX.Element {\n  return <div>Home</div>;\n}\n\nexport default Home;\n"],"sourceRoot":""}

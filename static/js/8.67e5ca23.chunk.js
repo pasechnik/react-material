@@ -1,0 +1,2 @@
+(this["webpackJsonpcreate-react-app-with-typescript"]=this["webpackJsonpcreate-react-app-with-typescript"]||[]).push([[8],{375:function(t,e,r){"use strict";r.r(e),r.d(e,"About",(function(){return p}));var c=r(0);function p(){return c.createElement("div",null,"About")}e.default=p}}]);
+//# sourceMappingURL=8.67e5ca23.chunk.js.map
