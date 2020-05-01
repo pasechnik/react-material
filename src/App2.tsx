@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import { makeStyles, useTheme, Theme, createStyles } from '@material-ui/core/styles';
+import { createStyles, makeStyles, Theme, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
@@ -16,8 +16,8 @@ import HomeIcon from '@material-ui/icons/Home';
 import InfoIcon from '@material-ui/icons/Info';
 import TodayIcon from '@material-ui/icons/Today';
 import ListIcon from '@material-ui/icons/List';
-// import HelpIcon from '@material-ui/icons/Help';
-// import StorageIcon from '@material-ui/icons/Storage';
+import VpnKeyIcon from '@material-ui/icons/VpnKey';
+import PersonAddIcon from '@material-ui/icons/PersonAdd';
 
 const drawerWidth = 240;
 
@@ -115,6 +115,8 @@ export const App2: React.FunctionComponent<{}> = (): JSX.Element => {
         <List>
           <ListItemLink to="/about" primary="About" icon={<InfoIcon />} />
           <ListItemLink to="/calendar" primary="Calendar" icon={<TodayIcon />} />
+          <ListItemLink to="/signin" primary="Sign In" icon={<VpnKeyIcon />} />
+          <ListItemLink to="/signup" primary="Sign Up" icon={<PersonAddIcon />} />
           <ListItemLink to="/topics" primary="Topics" icon={<ListIcon />} />
         </List>
       </Drawer>

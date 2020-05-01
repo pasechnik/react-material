@@ -5,19 +5,7 @@ import Box from '@material-ui/core/Box';
 import Link from '@material-ui/core/Link';
 import PrimarySearchAppBar from 'components/PrimarySearchAppBar';
 import { RoutesContainer } from 'routes/RoutesContainer';
-
-const Copyright: React.FunctionComponent<{}> = (): JSX.Element => {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Pasechnik.io
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-};
+import { Copyright } from 'components/Copyright';
 
 export const App: React.FunctionComponent<{}> = (): JSX.Element => {
   return (
