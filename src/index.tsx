@@ -16,16 +16,16 @@ const useStyles = makeStyles((theme: Theme) => ({
     minHeight: '100vh',
   },
   main: {
-    marginTop: theme.spacing(8),
+    marginTop: theme.spacing(4),
     marginBottom: theme.spacing(2),
   },
   footer: {
-    padding: theme.spacing(3, 2),
+    padding: theme.spacing(2, 2),
     marginTop: 'auto',
   },
 }));
 
-function Index() {
+function Index(): JSX.Element {
   const classes = useStyles();
   return (
     <ThemeProvider theme={theme}>
